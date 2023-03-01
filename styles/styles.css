@@ -1,0 +1,136 @@
+.first-flex {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    gap: 10px;
+
+    background-color: rgb(48, 108, 229);
+}
+
+.first-flex div {
+    width: 50%;
+    background-color: rgb(128, 128, 128);  
+    margin: 10px;
+}
+
+.first-flex #firstA {
+    margin-right: 0px; 
+}
+
+.first-flex #firstB {
+    margin-left: 0px;
+}
+
+.second-flex {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    gap: 15px;
+
+    background-color: rgb(48, 108, 229);
+}
+
+.second-flex div {
+    width: 33%;
+    background-color: rgb(128, 128, 128);  
+    margin: 15px;
+}
+
+.second-flex #secondA {
+    margin-right: 0px; 
+}
+
+.second-flex #secondB {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.second-flex #secondC {
+    margin-left: 0px;
+}
+
+.third-flex {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    gap: 12px;
+    background-color: rgb(48, 108, 229);
+}
+
+.third-flex div {
+    background-color: rgb(128, 128, 128);
+    margin: 12px;
+    width: 33%;
+}
+
+.third-flex #thirdA {
+    border: 2px solid;
+    margin-right: 0px;
+    width: 66%;
+}
+
+.third-flex #thirdB {
+    border: 2px solid;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.third-flex #thirdC {
+    border: 2px solid;
+    margin-left: 0px;
+}
+
+.fourth-flex {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    gap: 12px;
+
+    background-color: rgb(48, 108, 229);
+}
+
+.fourth-flex div {
+    width: 25%;
+    background-color: rgb(128, 128, 128);
+    margin: 12px;
+}
+
+.fourth-flex #fourthA {
+    border: 2px solid;
+    margin-right: 0px;
+}
+
+.fourth-flex #fourthB {
+    border: 2px solid;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.fourth-flex #fourthC {
+    border: 2px solid;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.fourth-flex #fourthD {
+    border: 2px solid;
+    margin-left: 0px;
+}
+
+.theFooter {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(48, 108, 229);
+    height: 50px;
+    margin-top: 0px;
+}
+
+.theFooter div {
+    width: 100%;
+    background-color: rgb(128, 128, 128);
+    margin-top: 0px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    border: 2px solid;
+}
